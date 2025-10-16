@@ -109,7 +109,6 @@ tiago-ros2-slam-nav-pick-place/
 ## How to Run the Simulation
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/NicoM1410/tiago-ros2-slam-nav-pick-place.git
 cd tiago-ros2-slam-nav-pick-place/tiago_ws
 
