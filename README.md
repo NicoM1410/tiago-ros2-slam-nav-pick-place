@@ -86,6 +86,36 @@ This architecture demonstrates the integration of perception, planning, and cont
 
 ---
 
+## Demo Videos
+
+Below are the main demonstration videos showcasing each functionality of the TIAGo ROS2 project:
+
+**1️⃣ Map Generation (SLAM Toolbox)**  
+[![Map Generation](https://img.youtube.com/vi/GjnLti2SNJc/0.jpg)](https://youtu.be/GjnLti2SNJc)  
+*Real-time SLAM mapping using SLAM Toolbox in ROS2 Humble.*
+
+**2️⃣ AMCL Localization**  
+[![AMCL Localization](https://img.youtube.com/vi/o40XE8mvP2k/0.jpg)](https://youtu.be/o40XE8mvP2k)  
+*Localization through AMCL using the occupancy grid previously generated during the SLAM phase.*
+
+**3️⃣ Navigation to Pick Location**  
+[![Navigation to Pick Location](https://img.youtube.com/vi/NcrWWvvB8DY/0.jpg)](https://youtu.be/NcrWWvvB8DY)  
+*Autonomous navigation toward the pick target using Nav2.*
+
+**4️⃣ ArUco Pick**  
+[![ArUco Pick](https://img.youtube.com/vi/mwXyiReY6dg/0.jpg)](https://youtu.be/mwXyiReY6dg)  
+*Object detection and grasping via ArUco marker tracking.*
+
+**5️⃣ ArUco Place**  
+[![ArUco Place](https://img.youtube.com/vi/u4vNhPdewxg/0.jpg)](https://youtu.be/u4vNhPdewxg)  
+*Placing the detected object at the desired ArUco marker position.*
+
+**6️⃣ Full Pipeline Demo**  
+[![Full Pipeline Demo](https://img.youtube.com/vi/Y57VvK9J0eU/0.jpg)](https://youtu.be/Y57VvK9J0eU)  
+*End-to-end execution integrating SLAM, localization, navigation, perception, and manipulation.*
+
+---
+
 ## Repository Content
 
 ```
