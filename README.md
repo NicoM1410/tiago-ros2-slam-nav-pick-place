@@ -88,6 +88,7 @@ This architecture demonstrates the integration of perception, planning, and cont
 
 ## Repository Content
 
+```
 tiago-ros2-slam-nav-pick-place/
 ├── tiago_ws/ # Custom ROS2 workspace (controllers, behaviors, perception)
 │ ├── src/
@@ -103,14 +104,17 @@ tiago-ros2-slam-nav-pick-place/
 │
 ├── AMR_presentation.pdf # Final project presentation
 └── README.md # Project documentation
+```
 
 ---
 
 ## How to Run the Simulation
 
 ### 1. Clone the repository
+```
 git clone https://github.com/NicoM1410/tiago-ros2-slam-nav-pick-place.git
 cd tiago-ros2-slam-nav-pick-place/tiago_ws
+```
 
 ### 2. Build the workspace
 colcon build 
