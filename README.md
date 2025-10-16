@@ -117,24 +117,36 @@ cd tiago-ros2-slam-nav-pick-place/tiago_ws
 ```
 
 ### 2. Build the workspace
+```
 colcon build 
 source install/setup.bash
+```
 
 ### 3. Install dependencies (if not already present)
+```
 sudo apt install ros-${ROS_DISTRO}-navigation2 ros-${ROS_DISTRO}-nav2-bringup \
                  ros-${ROS_DISTRO}-slam-toolbox ros-${ROS_DISTRO}-aruco-ros
+```
 
 ### 4. Launch Gazebo simulation
+```
 ros2 launch tiago_gazebo tiago_world.launch.py
+```
 
 ### 5. Start SLAM mapping
+```
 ros2 launch slam_toolbox online_async_launch.py
+```
 
 ### 6. Run navigation stack
+```
 ros2 launch nav2_bringup navigation_launch.py
+```
 
 ### 7. Execute Pick & Place
+```
 ros2 run tiago_pick_place pick_place_node
+```
 
 ---
 
