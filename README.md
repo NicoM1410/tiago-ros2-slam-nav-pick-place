@@ -89,27 +89,27 @@ This architecture demonstrates the integration of perception, planning, and cont
 ## Repository Content
 
 tiago-ros2-slam-nav-pick-place/
+├── tiago_ws/ # Custom ROS2 workspace (controllers, behaviors, perception)
+│ ├── src/
+│ │ ├── state_machine/
+│ │ ├── aruco_manager/
+│ │ ├── navigation/
+│ │ ├── autonomous_localization/
+│ │ └── ...
+│ ├── map.pgm
+│ └── map.yaml
 │
-├── tiago_ws/                     # Custom ROS2 workspace (controllers, behaviors, perception)
-│   ├── src/
-│   │   ├── state_machine/
-│   │   ├── aruco_manager/
-│   │   ├── navigation/
-│   │   ├── autonomous_localization/
-│   │   └── ...
-│   ├── map.pgm
-│   └── map.yaml
+├── ros2_ws/ # Base ROS2 workspace (dependencies, ros-controls)
 │
-├── ros2_ws/                      # Base ROS2 workspace (dependencies, ros-controls)
-│
-├── AMR_presentation.pptx         # Final project presentation
-└── README.md                     # Project documentation
+├── AMR_presentation.pdf # Final project presentation
+└── README.md # Project documentation
 
 ---
 
 ## How to Run the Simulation
 
 ### 1. Clone the repository
+```bash
 git clone https://github.com/NicoM1410/tiago-ros2-slam-nav-pick-place.git
 cd tiago-ros2-slam-nav-pick-place/tiago_ws
 
