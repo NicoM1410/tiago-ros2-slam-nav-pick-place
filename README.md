@@ -1,6 +1,6 @@
 # TIAGo ROS2 – SLAM, Navigation & Pick&Place
 
-This repository presents the implementation of **autonomous and mobile robotics** functionalities on the **TIAGo robot** using **ROS2 Humble (Ubuntu 22.04)**.  
+This repository presents the implementation of **autonomous and mobile robotics** functionalities on the **TIAGO robot** using **ROS2 Humble (Ubuntu 22.04)**.  
 The system integrates **SLAM**, **autonomous navigation (Nav2)**, **object detection via ArUco markers**, **manipulation with MoveIt**, and a **Pick & Place pipeline**, all coordinated through a **finite state machine** written in Python.
 
 This project was developed as part of the *Autonomous and Mobile Robotics* course at the **University of Bologna**.
