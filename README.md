@@ -86,7 +86,7 @@ This architecture demonstrates the integration of perception, planning, and cont
 
 ---
 
-## Demo Videos
+## Watch the TIAGO in Action
 
 Below are the main demonstration videos showcasing each functionality of the TIAGo ROS2 project:
 
