@@ -137,7 +137,8 @@ ros2 run tiago_pick_place pick_place_node
 
 ## Presentation
 
-The final project presentation is available in [docs/AMR_presentation.pdf](docs/AMR_presentation.pdf)
+The final project presentation is available here:  
+[Download AMR Project Presentation (PDF)](./AMR%20presentation%20(1).pdf)
 
 ---
 
